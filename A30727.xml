@@ -1,0 +1,419 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Christian liberty asserted in oposition to the Roman yoke delivered in a sermon preached in His Majesties royal chappel of Windsor, the 8th of Decemb. 1678 / by John Butler.</title>
+            <author>Butler, John, D.D.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1678</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 49 KB of XML-encoded text transcribed from 22 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A30727</idno>
+            <idno type="STC">Wing B6277</idno>
+            <idno type="STC">ESTC R7538</idno>
+            <idno type="EEBO-CITATION">11633000</idno>
+            <idno type="OCLC">ocm 11633000</idno>
+            <idno type="VID">47938</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A30727)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 47938)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 484:42)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Christian liberty asserted in oposition to the Roman yoke delivered in a sermon preached in His Majesties royal chappel of Windsor, the 8th of Decemb. 1678 / by John Butler.</title>
+                  <author>Butler, John, D.D.</author>
+               </titleStmt>
+               <extent>[6], 35 p. ;  21 cm. </extent>
+               <publicationStmt>
+                  <publisher>Printed by M.C. for Walter Kettilby,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1678.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible. --  N.T. --  Galatians V, 1 --  Sermons.</term>
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-02</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-02</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-06</date>
+            <label>Geremy Carnes</label>Sampled and proofread</change>
+         <change>
+            <date>2013-06</date>
+            <label>Geremy Carnes</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="imprimatur">
+            <pb facs="tcp:47938:1"/>
+            <p> Imprimatur,</p>
+            <closer>
+               <signed>Geo. Thorp <hi>Rev. in</hi> C. P. <hi>&amp;</hi> D. <hi>Dom.</hi> Gulielmo <hi>Archiep.</hi> Cant. <hi>à ſacris Domeſt.</hi>
+               </signed>
+            </closer>
+            <pb facs="tcp:47938:1"/>
+         </div>
+         <div type="imprimatur">
+            <pb facs="tcp:47938:2"/>
+            <p> Imprimatur,</p>
+            <closer>
+               <signed>Carolus Alſton, <hi>R. P. D.</hi> Hen. <hi>Epiſc.</hi> Lond. <hi>à ſacris domeſticis.</hi>
+               </signed>
+               <dateline>
+                  <date>Decemb. 18. 1678.</date>
+               </dateline>
+            </closer>
+         </div>
+         <div type="title_page">
+            <pb facs="tcp:47938:2" rendition="simple:additions"/>
+            <p> CHRISTIAN LIBERTY Aſſerted in Opoſition to the <hi>Roman Yoke,</hi> Delivered in a SERMON PREACHED IN His Majeſties Royal Chappel OF WINDSOR.</p>
+            <p>The 8<hi rend="sup">th.</hi> of <hi>Decemb.</hi> 1678.</p>
+            <p>By <hi>John Butler,</hi> D. D. Canon of the ſaid Chappel, And Chaplain in Ordinary to His Majeſty.</p>
+            <p>
+               <hi>London:</hi> Printed by <hi>M. C.</hi> for <hi>Walter Kettilby,</hi> at the Biſhops Head in St. <hi>Pauls</hi> Church-Yard. 1678.</p>
+            <pb facs="tcp:47938:3"/>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:47938:3"/>
+            <head>TO HIS Illuſtrious HIGHNESS PRINCE RUPERT, Count Palatine of the <hi>Rhine,</hi> Duke of <hi>Bavaria</hi> and <hi>Cumberland,</hi> Vice-Ad<g ref="char:EOLhyphen"/>miral of all <hi>England,</hi> Knight of the moſt Noble Order of the Garter, Conſtable of His Majeſties Ca<g ref="char:EOLhyphen"/>ſtle and Honor of <hi>Windſor,</hi> and One of His Majeſties moſt Ho<g ref="char:EOLhyphen"/>norable Privy-Council, <hi>&amp;c.</hi> The Publiſher humbly Dedicates the enſuing Diſcourſe.</head>
+            <opener>
+               <salute>May it pleaſe your Highneſs,</salute>
+            </opener>
+            <p>THat the following Diſcourſe be<g ref="char:EOLhyphen"/>comes Publick, is chiefly owing to the earneſt and often repeated in<g ref="char:EOLhyphen"/>ſtances of ſeveral Perſons of Honor and Quality, who have perſuaded themſelves
+<pb facs="tcp:47938:4"/> and me with them, that it may not be al<g ref="char:EOLhyphen"/>together uſeleſs in this diſſolute and there<g ref="char:EOLhyphen"/>fore ſtaggering age.</p>
+            <p>
+               <hi>AND</hi> that it humbly approacheth your Highneſs is owing to your High<g ref="char:EOLhyphen"/>neſſes <hi>Love to our Nation,</hi> your un<g ref="char:EOLhyphen"/>wearied induſtry for the ſupport of the True Religion Eſtabliſhed by Law a<g ref="char:EOLhyphen"/>mongſt us, your known and juſt indigna<g ref="char:EOLhyphen"/>tion againſt the Roman yoke, and to the many and ſignal favours which I moſt humbly and gratefully acknowledg to have been conferred upon me by your High<g ref="char:EOLhyphen"/>neſſes hands on all offered occaſions, ſince I had firſt the Honor of depending on your Highneſs. By theſe conſiderations I think my ſelf obliged as well out of gra<g ref="char:EOLhyphen"/>titude as equity to make your Highneſs this ſmall Preſent. Which (however de<g ref="char:EOLhyphen"/>fective in it ſelf) will receive no ſmall advantage by your Highneſſes favourable
+<pb facs="tcp:47938:4"/> acceptance. With my hearty and dayly prayers for your Highneſſes happineſs here and hereafter, I humbly take leave in quality of</p>
+            <closer>
+               <signed>Your HIGHNESSES Moſt obliged moſt Faithful and moſt Humble Servant Jo. BUTLER.</signed>
+            </closer>
+            <pb facs="tcp:47938:5"/>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb n="1" facs="tcp:47938:5"/>
+            <head>A SERMON ON GALAT. v. <hi>v.</hi> I.</head>
+            <epigraph>
+               <q>Stand faſt therefore in the liberty where<g ref="char:EOLhyphen"/>with Chriſt hath made us free, and be not intangled again with the yoke of bondage.</q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">W</seg>E find here the <hi>Galatians</hi> in dan<g ref="char:EOLhyphen"/>ger of dealing by the Holy A<g ref="char:EOLhyphen"/>poſtle and themſelves juſt as the <hi>Iſraelites</hi> would have done by <hi>Moſes</hi> and themſelves, af<g ref="char:EOLhyphen"/>ter their deliverance from the Land of <hi>Egypt,</hi> out of the Houſe of Bondage. Thoſe, becauſe in their journey towards the Land of Promiſe they met with ſome difficul<g ref="char:EOLhyphen"/>ties, would fain have been going back to ſerve
+<pb n="2" facs="tcp:47938:6"/> again under their old tyrannical Oppreſſours: remembring indeed the Fleſh-pots, the Leeks, the Onyons, and the Garlick; but ſtupidly for<g ref="char:EOLhyphen"/>getting their making Brick without Straw, or being ſeverely chaſtiſed if they did not do it, and that their Male Children had been ordered to be ſtrangled, or otherwiſe made away ſo ſoon as they were born into the world. And theſe (I mean the <hi>Galatians)</hi> hearkning to the ſly inſinuations of ſome falſe Prophets among them (converted Jews, who had a mind to <hi>glory in their Fleſh)</hi> and weary alſo of ſuffering<note place="margin">Gal. vi. 13.</note> perſecutions raiſed againſt them by means of thoſe of the Circumciſion, were wavering and ſtaggering in their Religion and in great hazard of ſubjecting their necks to the yoke of the Ceremonial Law, wholly abrogated by the perfect active and paſſive obedience of Chriſt, contrary to the Doctrine which they had heard and believed, deſtructive of that liberty where<g ref="char:EOLhyphen"/>with Chriſtanity had enfranchiz'd them, and particularly of all hopes of benefit by it in or<g ref="char:EOLhyphen"/>der to their ſalvation: for it follows immedi<g ref="char:EOLhyphen"/>ately after my Text, <hi>Behold I</hi> Paul <hi>ſay unto you, that if ye be circumcis'd, Chriſt ſhall profit you nothing.</hi>
+            </p>
+            <pb n="3" facs="tcp:47938:6"/>
+            <p> AN unhappy parallel this! wherein how<g ref="char:EOLhyphen"/>ever the <hi>Iſraelites</hi> have this advantage of them: they were but <hi>in via,</hi> theſe <hi>in patria;</hi> thoſe journeying towards their promiſed Land, theſe put into actual poſſeſſion of it; having by the preaching of this bleſſed Apoſtle been freed from the ſlavery of Idol-Worſhip, having had <hi>Jeſus Chriſt crucified ſo evidently ſet forth amongſt</hi>
+               <note place="margin">Gal. iii. 1.</note> 
+               <hi>them, as if it had been done even before their very eyes,</hi> and having embraced the Doctrine of Ju<g ref="char:EOLhyphen"/>ſtification by Faith without the works of the Law.</p>
+            <p>IT was high time therefore for their ſpiri<g ref="char:EOLhyphen"/>tual father to take care of them and to cry out, <hi>Stand faſt therefore,</hi> &amp;c.</p>
+            <p>AND I would to God that (as the <hi>Galatians</hi> imitated the <hi>Iſraelites</hi> in their ſenſeleſs deſire af<g ref="char:EOLhyphen"/>ter their former ſervitude, ſo) many, very ma<g ref="char:EOLhyphen"/>ny amongſt us did not write after the <hi>Galati<g ref="char:EOLhyphen"/>ans</hi> Copy.</p>
+            <p>BUT now (that I may take up the La<g ref="char:EOLhyphen"/>mentation of the Prophet <hi>Baruch) Wo is me, for</hi>
+               <note place="margin">Iſai. xlv. 3.</note> 
+               <hi>the Lord hath added grief to my ſorrow, I fainted in my ſighing and I find no reſt.</hi>
+            </p>
+            <p>GOD hath long ſince wonderfully brought us out of the darkneſs of Superſtition and Ido<g ref="char:EOLhyphen"/>latry into his marvellous light, ſet us at liberty
+<pb n="4" facs="tcp:47938:7"/> one and all, King, Prieſt and People from moſt intolerable as well Temporal as Spiritual bondage under the <hi>Roman</hi> Yoke. And now after all we <hi>i. e.</hi> too many amongſt us (ſome out of vincible and therefore criminal zeal, ſome out of worldly intereſt and ſome out of baſe Cowardiſe) are ready moſt ungratefully to be intangled with and ſubject our necks to the ſame inſupportable yoke of bondage again. Nay (which is yet worſe) as the <hi>Iſraelites</hi> had the better of the <hi>Galatians,</hi> in that thoſe were only on their way towards their Promiſed Land, theſe in poſſeſſion of it: So have the <hi>Galatians</hi> this advantage of us, that they were yet upon their feet, they were not yet quite fall'n; for otherwiſe the Apoſtle would not have bid them <hi>ſtand,</hi> but <hi>riſe up.</hi>
+            </p>
+            <p>BUT amongſt us multitudes are fall'n a<g ref="char:EOLhyphen"/>way, being already intangled with this yoke of bondage; and for others nets and ſnares are dayly and hourly ſpread abroad not by <hi>Fiſhers</hi> but <hi>Hunters</hi> of men to intangle them. And all this done to the diſhonor of Almighty God and his true Religion, the ſcandal and hazard of the State, the ſorrow and anguiſh of all good men, and the exceeding great peril, if not utter loſs of thouſands of Souls.</p>
+            <pb n="5" facs="tcp:47938:7"/>
+            <p> IS any one therefore fall'n? Let him riſe up again. Is any man yet ſtanding, yet ſo as to ſtagger and waver in his Religion? Let him take heed leſt he fall, always remembring (with which words the Apoſtle concludes the foregoing Chapter, and upon which he grounds the charge in my Text) that <hi>we are not children of the bond-woman, but of the free.</hi>
+            </p>
+            <p>
+               <hi>Stand therefore, ſtand faſt in the liberty where<g ref="char:EOLhyphen"/>with Chriſt hath made us free and be not intangled a<g ref="char:EOLhyphen"/>gain with the yoke of bondage.</hi>
+            </p>
+            <p>IN which words we have</p>
+            <list>
+               <item>I. <hi>A Perſuaſion or Exhortation,</hi> Stand faſt.</item>
+               <item>II. <hi>A Diſſuaſion or Dehortation,</hi> Be not in<g ref="char:EOLhyphen"/>tangled.</item>
+            </list>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="I"/> THE firſt, The Perſuaſion or Exhortation is back'd with two cogent arguments.</p>
+            <p n="1">1. THE one drawn <hi>ab utili &amp; jucundo;</hi> from the profit and pleaſure of thus ſtand<g ref="char:EOLhyphen"/>ing; it is in <hi>liberty:</hi> The <hi>Galatians</hi> were and we are <hi>free.</hi>
+            </p>
+            <p n="2">2. THE other <hi>ab honeſto:</hi> They were and ſo are we bound in honor and honeſty to keep our ground and maintain our ſtation in this liberty for the ſake of him who had and hath made both them and us free; and that is Chriſt
+<pb n="6" facs="tcp:47938:8"/> himſelf. Stand faſt therefore <hi>in the liberty</hi> where<g ref="char:EOLhyphen"/>with Chriſt hath made us free.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="II"/> OUR Second part alſo is fortified with two unanſwerable arguments.</p>
+            <p n="1">1. THE former drawn <hi>ab incommodo,</hi> from the miſchief of quitting their ſtation and be<g ref="char:EOLhyphen"/>ing intangled: there was a <hi>yoke,</hi> a very hea<g ref="char:EOLhyphen"/>vy <hi>yoke of bondage</hi> in the caſe. Be not therefore intangled <hi>with the yoke of bondage.</hi>
+            </p>
+            <p n="2">2. THE latter <hi>ab abſurdo;</hi> be not in<g ref="char:EOLhyphen"/>tangled <hi>again, q. d.</hi> Indeed if you had never been in bondage before, ſomthing might be ſaid for you: your vacillation, your wavering and ſtaggering would call rather for compaſſi<g ref="char:EOLhyphen"/>on than indignation. But for <hi>you,</hi> you who have been emancipated from the yoke to run your necks wilfully into it <hi>again,</hi> is ſuch an e<g ref="char:EOLhyphen"/>gregious piece of folly and madneſs as deſerves neither pitty nor forgiveneſs.</p>
+            <p>STAND <hi>Faſt therefore,</hi> &amp;c. <hi>and be not in<g ref="char:EOLhyphen"/>tangled,</hi> &amp;c.</p>
+            <div n="1" type="part">
+               <p n="1">I. To begin with the firſt, The Perſuaſion or Exhortation. <hi>Stand faſt.</hi>
+               </p>
+               <p>IT was a very ill character that <hi>Jacob</hi> gave of his eldeſt ſon <hi>Reuben—unſtable as water.</hi>
+                  <note place="margin">Gen. xlix. 4.</note> For that element falls under the definition of <hi>humidum</hi> (according to the old Philoſophy) <hi>Quod</hi>
+                  <pb n="7" facs="tcp:47938:8"/> 
+                  <hi>difficilè ſuis, facilè alienis terminis continetur:</hi> which is morally true of an unſtable irreſolute man, you may <hi>empty him from veſſel to veſſel;</hi> indeed you may do what you will with him. <hi>Every wind of doctrine toſſeth him,</hi> every tentation enſnares him, every paſſion over-rules him, every proſperous accident lifts him up, and every ill one throws him down. In a word (as the Wiſeman expreſſeth it) he <hi>is like a City</hi>
+                  <note place="margin">Prov. xxv. 28.</note> 
+                  <hi>broken down and without Walls,</hi> eaſily taken in and brought into bondage. And all this pro<g ref="char:EOLhyphen"/>ceeds from incogitancy. He cannot allow himſelf time to debate and conſider (hardly to think, much leſs) to try all things; and therefore it is utterly impoſſible he ſhould ever <hi>hold faſt that which is good.</hi> The man lives by chance and not by choice; is juſt what every thing without will make him (neither more nor leſs) and ſo becomes an eaſie prey up<g ref="char:EOLhyphen"/>on every onſet. Now certainly to be thus is beneath the dignity not only of a Chriſtian, but of a Man.</p>
+               <p>FOR Gods ſake therefore let us look about us; <hi>Stand faſt and quit our ſelves like men.</hi> Let us not be like the <hi>Galatians</hi> here, of whom the Apoſtle ſays, that they could once <hi>run (ye did run well)</hi> and that now they were hard<g ref="char:EOLhyphen"/>ly<note place="margin">Verſe 7.</note>
+                  <pb n="8" facs="tcp:47938:9"/> able to <hi>ſtand:</hi> but let us <hi>be ſtrong and of a good courage.</hi>
+               </p>
+               <p>THE Merchant before he goes to Sea is intent day and night upon his Adventure, computes the charge, conſiders the dangers threatned from piracy or ſhipwrack; and yet at laſt in an <hi>uncertain hope</hi> of gain goes on at all adventures; nothing can divert him from his purpoſe.</p>
+               <p>THE good Souldier from five pounds to ten pence a day, conſiders that he muſt run through much hardſhip, and carry his life in his hand; yet in hope of Victory (which is not always <hi>to the ſtrong</hi> neither) he reſolutely wades through the one and hazards the other. And why (in the name of God) ſhould not we put on equal reſolutions for our perſeverance in and defence of our Religion? having <hi>a ſure and certain hope</hi> (if we keep our ſtation and con<g ref="char:EOLhyphen"/>tinue in well doing) of the Reſurrection to Eternal Life.</p>
+               <p>To which purpoſe give me leave ſeaſon<g ref="char:EOLhyphen"/>ably to adviſe you not to truſt too much to your own ſtrength, but (in the words of our Apoſtle) to <hi>be ſtrong in the Lord and in the power</hi>
+                  <note place="margin">Eph. vi. 10.</note> 
+                  <hi>of his might;</hi> and to beg fervently and inceſ<g ref="char:EOLhyphen"/>ſantly, that he would <hi>ſtrengthen our weak hands,</hi>
+                  <note place="margin">Job iv. 4.</note>
+                  <pb n="9" facs="tcp:47938:9"/> that he would <hi>ſtrengthen and confirm our feeble</hi>
+                  <note place="margin">Iſai. xxxv. 3.</note> 
+                  <hi>knees,</hi> that <hi>ſo we may be able to withſtand in the</hi>
+                  <note place="margin">Eph. vi. 13.</note> 
+                  <hi>evil day and having done all to ſtand.</hi>
+               </p>
+               <p>IN the mean time taught and comman<g ref="char:EOLhyphen"/>ded by God himſelf, I am not afraid to <hi>ſay to them that are of a fearful heart—Be ſtrong,</hi>
+                  <note place="margin">Iſai. xxxv. 4.</note> 
+                  <hi>fear not; behold your God will come with ven<g ref="char:EOLhyphen"/>geance, even God with a recompence, he will come and ſave you.</hi>
+               </p>
+               <p>AND more than this I think I need not ſay upon the firſt general of my Text<hi>—Stand faſt.</hi>
+               </p>
+               <p>I ſhall now deſcend to the two prevailing arguments with which the Apoſtle enforceth this perſuaſion or exhortation.</p>
+               <div n="1" type="argument">
+                  <p>
+                     <milestone type="tcpmilestone" unit="unspecified" n="I"/> THE firſt (as we told you before) is drawn <hi>ab utili &amp; jucundo,</hi> from the profit and pleaſure of thus ſtanding, it is in <hi>liberty;</hi> the <hi>Galatians</hi> were, and we are <hi>free.</hi>
+                  </p>
+                  <p>BUT it fares now with us as it did then with them. The Jews had a mind by put<g ref="char:EOLhyphen"/>ting upon them the yoke of Circumciſion (which was once a Commandment of God) <hi>to glory in their fleſh:</hi> and the Church or Court<note place="margin">Chap. vi. 13.</note> of <hi>Rome</hi> ('tis all one to me which) would by making us receive for Doctrins the command<g ref="char:EOLhyphen"/>ments never of God but of men, fain glory in
+<pb n="10" facs="tcp:47938:10"/> our fleſh, but with a deſign undoubtedly to uſe it very coarſly; as I queſtion not in the follow<g ref="char:EOLhyphen"/>ing part of my Diſcourſe to make it moſt evi<g ref="char:EOLhyphen"/>dent. Stand faſt therefore in the <hi>liberty</hi> where<g ref="char:EOLhyphen"/>with we are made <hi>free.</hi>
+                  </p>
+                  <p>LIBERTY and Freedom! Why is it poſ<g ref="char:EOLhyphen"/>ſible that either the <hi>Galatians</hi> or we, or indeed any man ſhould come to that paſs as to ſtand in need of perſuaſions to preſerve that? that, upon which no man could yet ever ſet any price? Certainly both they and we muſt be bewitched firſt.—I ſhall not deſire to be ex<g ref="char:EOLhyphen"/>cuſed either for the harſhneſs or homelineſs of the expreſſion: for it was the very caſe of the <hi>Galatians</hi> here, againſt whom our Apoſtle ex<g ref="char:EOLhyphen"/>claims thus.<hi>—O fooliſh Galatians, who hath</hi>
+                     <note place="margin">Chap. iii. 1.</note> 
+                     <hi>bewitched you, that ye ſhould not obey the truth?</hi>
+                  </p>
+                  <p>THE Truth is, they were bewitched with the fear of eternal Damnation which had been poſitively denounced againſt them by ſome of the Jews who were Zealous of the Law, and might poſſibly <hi>Zealouſly affect them,</hi>
+                     <note place="margin">Chap. iv. 17.</note> 
+                     <hi>but not well.</hi> Of ſuch you read Act. xv. 1. <hi>Cer<g ref="char:EOLhyphen"/>tain men which came down from Judaea taught the brethren ſaying, except ye be circumciſed after the manner of</hi> Moſes, <hi>ye cannot be ſaved.</hi>
+                  </p>
+                  <pb n="11" facs="tcp:47938:10"/>
+                  <p> BUT beſides this, another charm by which they were bewitched, was their wearineſs of paſt and fear of future perſecutions, if they did not comply with the Jews.</p>
+                  <p>THESE were the Bugbears of the <hi>Galati<g ref="char:EOLhyphen"/>ans,</hi> and they are ours.</p>
+                  <p>EXCEPT <hi>ye be circumciſed after the manner of</hi> Moſes, <hi>ye cannot be ſaved,</hi> ſaid ſome of <hi>the Jews</hi> to them. And except ye become <hi>Roman</hi> Catholicks (which yet every youth that hath but learnt half his Logic will tell you is non<g ref="char:EOLhyphen"/>ſenſe) ye cannot be ſaved! No; but, with much more fierceneſs; <hi>you ſhall be damned,</hi> ſay the <hi>Papiſts</hi> with one mouth to us.—And I would fain know why ſo. To obviate what the Zea<g ref="char:EOLhyphen"/>lous Jews had ſaid to terrifie the <hi>Galatians,</hi> the Apoſtle asks them this queſtion<hi>—this only</hi>
+                     <note place="margin">Gal. iii. 2.</note> 
+                     <hi>would I learn of you: received you the ſpirit by the works of the Law, or by the hearing of faith?</hi> q. d. did I who am a Jew, when I preached to you the Goſpel of Chriſt (upon which, the Lord working with me, you received the Holy Ghoſt, and ſaw that Doctrine confirmed by miracles) did I oblige you to any ſuch cu<g ref="char:EOLhyphen"/>ſtom?</p>
+                  <p>AND This only would I learn of the <hi>Pa<g ref="char:EOLhyphen"/>piſts,</hi> did we firſt receive the Goſpel from
+<pb n="12" facs="tcp:47938:11"/> them? I know very well that ſome of them want not confidence to affirm any thing, but we are better aſſured that Chriſtianity was planted in this Iſland long before any of the Popes agents ſet their feet here. And when they did come, what did they do for us, but corrupt our Religion by degrees, and draw us into their yoke by making us believe, that if we did not keep cloſe communion with and obſerve them in all things, we ſhould certainly be damned?</p>
+                  <p>BUT the <hi>Galatians</hi> were weary of their paſt and afraid of their future perſecutions, if they did not comply with the Jews.</p>
+                  <p>THE more Fools they.</p>
+                  <p>ARE <hi>ye ſo fooliſh</hi> (ſays our Apoſtle) <hi>have</hi>
+                     <note place="margin">Ch. iii. 3, 4.</note> 
+                     <hi>ye ſuffered ſo many things in vain? if it be yet in vain. q. d.</hi> Have ye embraced the Goſpel with reſolutions to ſuffer in the profeſſion of it? have ye done it hitherto, and will ye now by fooliſhly thinking to avoid perſecutions loſe the Crown laid up in ſtore for you on that ac<g ref="char:EOLhyphen"/>count?</p>
+                  <p>THE more fools they, and the more cow<g ref="char:EOLhyphen"/>ards we.</p>
+                  <p>WE have ſuffered in the defence of our Re<g ref="char:EOLhyphen"/>ligion, of the cauſe of God and his Vicegerents
+<pb n="13" facs="tcp:47938:11"/> againſt a ſchiſmatical and rebellious generation of men, but yet ſuch as were ſet on and mana<g ref="char:EOLhyphen"/>ged undoubtedly by our old implacable adver<g ref="char:EOLhyphen"/>ſaries of <hi>Rome.</hi> How many men of all ranks and degrees with an invincible courage loſt their Eſtates, their Liberties, their Lives in the quarrel! and are we faint-hearted now? Have a care. He that ſeeks thus to ſave his life is in a fair way to loſe it.</p>
+                  <p>BUT ſtay, is the <hi>Liberty</hi> wherewith we are made <hi>free</hi> worth the contending for, <hi>i. e.</hi> ſo as to oblige us to die (if called to it) rather than yield to the <hi>Roman Yoke?</hi>
+                  </p>
+                  <p>IS it! I do not in the leaſt doubt it. I am ſure the firſt bleſſed inſtruments of our happy Reformation and their followers thought ſo: elſe they would never have loſt their Lives in the cauſe.</p>
+                  <p>BUT (Good God!) in what an age do we live! when a ſort of men among our ſelves of looſe and corrupt principles have not ſtuck to affront the memory of thoſe bleſſed men and women with the name of <hi>Foxian Martyrs!</hi> Such fellows will look to themſelves I'll war<g ref="char:EOLhyphen"/>rant them.</p>
+                  <p>NOW to ſatisfie you in the point, I will in as few words as I can give you an account of
+<pb n="14" facs="tcp:47938:12"/> this <hi>liberty wherewith we are made free:</hi> and then tell me what you think on't.</p>
+                  <p>WE have the Oracles of God, thoſe Foun<g ref="char:EOLhyphen"/>tains of living water (which contain all things neceſſary for our Salvation) put into our hands<note place="margin">2 Tim. 3. 17.</note> and read to us, according to the Apoſtles times in a <hi>known tongue.</hi> We have the Word of God purely diſpenſed by <hi>Workmen that need not be aſhamed, rightly dividing the word of truth.</hi> We have the Sacraments rightly and duely admi<g ref="char:EOLhyphen"/>niſtred according to our bleſſed Lord and Savi<g ref="char:EOLhyphen"/>our Jeſus Chriſt his own holy Inſtitution. And all this (which characterizeth a true Church) in order to our future happineſs. Then, which both tends to that and alſo to our preſent well-being, we are taught to obey our King, and all that are put in authority under him without reſiſting; to ſuffer death rather than lift up a fin<g ref="char:EOLhyphen"/>ger againſt him: never to expect to ſee the face of God with comfort unleſs we be of a peace<g ref="char:EOLhyphen"/>able diſpoſition and live an holy life, ſo taking the holy Jeſus for our pattern as yet (de<g ref="char:EOLhyphen"/>ſpairing moſt juſtly of all benefit from our own or others pretended righteouſneſs) to rely upon his moſt meritorious Death and Paſſion for our Salvation. In a word, to honour all men, to love the Brother-hood, (nay our very enemies)
+<pb n="15" facs="tcp:47938:12"/> to fear God and honour the King. Theſe for brevity's ſake I offer only as a <hi>specimen</hi> of that great and glorious liberty wherewith we are made free. And what think ye now? is not this liberty worth the contending for? worth every mans contending for? I will not ſo much as ſuſpect that any perſon here thinks other<g ref="char:EOLhyphen"/>wiſe. But if any ſuch there be, I ſhall only deſire your patience a little while, till I come to paint out to them the yoke of bondage, which is to be given us in exchange for this liberty; and then I hope they will be ſatisfied. In the mean time let <hi>us</hi> ſtand faſt in the <hi>liberty</hi> wherewith we are made <hi>free.</hi> Stand faſt there<g ref="char:EOLhyphen"/>fore. <hi>For Chriſt his ſake ſtand faſt.</hi> Which is the Apoſtles ſecond argument to enforce his exhor<g ref="char:EOLhyphen"/>tation—Stand faſt in the liberty wherewith <hi>Chriſt</hi> hath made us free.</p>
+               </div>
+               <div type="argument">
+                  <p>CHRIST made the <hi>Galatians,</hi> us and the whole world <hi>free</hi> by his meritorious Death and Paſſion on his part, and by faith and re<g ref="char:EOLhyphen"/>pentance on ours. Chriſt made us free, by enjoining us no more than his own <hi>perfect law of liberty:</hi> leaving power indeed to the Guides of the Church to take care <hi>that all things ſhould be done with decency and order;</hi> but not to alter or diminiſh, no nor to add a tittle that was not
+<pb n="16" facs="tcp:47938:13"/> built upon that foundation. And all the Epi<g ref="char:EOLhyphen"/>ſtles of the holy Apoſtles are but ſo many Com<g ref="char:EOLhyphen"/>ments upon that Law. As for the <hi>ſtraw</hi> there<g ref="char:EOLhyphen"/>fore and <hi>ſtubble</hi> which our adverſaries of <hi>Rome</hi> have <hi>built upon this foundation</hi> in order to our making brick for the repair of their tottering Tower—away with it.</p>
+                  <p>LET us follow Chriſt <hi>the author and finiſher of our faith,</hi> and not the corrupter of it; Chriſt <hi>the Captain of our Salvation, the Shepherd and Biſhop of our Souls,</hi> and not his pretended Lieutenant and Vicar who acts both beyond and contrary to his Commiſſion. Remember I beſeech you, your firſt Vow when you were baptized into <hi>Chriſt</hi> who purchaſed your liberty by ſhedding his own moſt precious Blood for you; and not into that man or Church who are moſt notori<g ref="char:EOLhyphen"/>ouſly known ready to take it from you at the expence of your bloud, if they cannot compaſs it by other means. Remember that at that time you promiſed faithfully to be the Soul<g ref="char:EOLhyphen"/>diers of <hi>Chriſt,</hi> and to fight manfully under his Banner: and do not run from your Colours by ungratefully and cowardly quitting your <hi>Poſt.</hi>
+                  </p>
+                  <p>STAND faſt therefore in the liberty where<g ref="char:EOLhyphen"/>with <hi>Chriſt</hi> hath made us free.</p>
+                  <pb n="17" facs="tcp:47938:13"/>
+                  <p> AND now one would think the Apoſtle had ſaid enough to make his <hi>Galatians</hi> ſtand faſt, by urging to them their liberty and the author of it; that there needed no more to be ſaid in the caſe; and that therefore, if thoſe would not prevail upon them, all other arguments would prove inſignificant and uſeleſs.</p>
+                  <p>NO ſuch matter. He knew very well that if he did not ſhew them as well the danger and abſurdity of quitting their ſtation as the profit and pleaſure of keeping it, they would be wavering ſtill.</p>
+               </div>
+            </div>
+            <div n="2" type="part">
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="II"/> TAUGHT therefore by this bleſſed Apoſtle (as well as by <hi>Moſes</hi> who did not think it enough to <hi>ſet life and good</hi> before the people, unleſs he ſhewed them alſo <hi>death</hi> and <hi>evil)</hi> I ſhall pur<g ref="char:EOLhyphen"/>ſue his method, and proceed to the ſecond general part of my Text, the Diſſuaſion or Dehortation, <hi>Be not intangled, Nolite contineri, nè illaqueamini, nè implicemini, nè retiamini</hi> (for ſo many ways the original word <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> is tran<g ref="char:EOLhyphen"/>ſlated, and the ſenſe in each rendition is much the ſame) as though the Apoſtle ſhould have ſaid, you are now in a ſtate of liberty and free<g ref="char:EOLhyphen"/>dome which Chriſt hath purchaſed for you; have a care of ſuch nets and ſnares, ſuch arti<g ref="char:EOLhyphen"/>fices and cunning devices as are laid and pre<g ref="char:EOLhyphen"/>pared
+<pb n="18" facs="tcp:47938:14"/> to deprive you of it. Have a care of their fair pretences. So our Apoſtle<hi>—as many as deſire to make a fair ſhew in the fleſh, they con<g ref="char:EOLhyphen"/>ſtrain</hi>
+                  <note place="margin">Chap. vi. verſ. 12.</note> 
+                  <hi>you to be circumciſed.</hi> Have a care of being intangled by their fawning conceſſions and crafty diſtinctions. <hi>A little leaven leaveneth the whole lump,</hi> ſaith the Apoſtle. And therefore<note place="margin">V. 9. h. c.</note> as he tells them<hi>—I teſtifie again to every man that is circumciſed, that he is a debtor to the whole</hi>
+                  <note place="margin">Verſ. 3.</note> 
+                  <hi>Law:</hi> So I teſtifie to all thoſe that are waver<g ref="char:EOLhyphen"/>ing and ready to be intangled by the arts of thoſe perverters, that they muſt ſooner or later ſubmit themſelves to the <hi>whole law</hi> of that Church; unleſs they would be looked upon as <hi>half Papiſts,</hi> who are in the eſteem of the ruling part of that Church little better than <hi>Proteſtants,</hi> and ſhall perhaps fare little better when occa<g ref="char:EOLhyphen"/>ſion ſhall ſerve. The plain truth of it is this; and herein lies the cheat.</p>
+               <p>If any perſon whom they have a mind to make a Proſelyte, boggle at their Antichriſtian doctrine and practice of giving the Sacrament under one kind only; they will tell him very ſoftly that indeed it is true, the Church hath for many weighty reaſons altered the primitive Inſtitution; but that yet however if he cannot with a quiet mind ſubmit to the Canon in that
+<pb n="19" facs="tcp:47938:14"/> particular, he ſhall be diſpenſed with, and re<g ref="char:EOLhyphen"/>ceive it in both, till he be clearly convinced and fully ſatisfied. But then 'tis an hundred to one they impoſe upon him by giving him uncon<g ref="char:EOLhyphen"/>ſecrated Wine. If he ſtartle and ſtand amazed (as well he may) at the horrid and barbarous doctrine of excommunicating and depoſing Emperours, Kings and Princes from their rega<g ref="char:EOLhyphen"/>lities and dignities, not only for being Hereticks themſelves, as they pleaſe to call them (nay their very being <hi>male morati</hi> will do it) but for not extirpating Hereticks out of their dominions with fire and ſword, if warned ſo to do; and thereupon having abſolved their Subjects from their allegeance, of giving their dominions to others if they cannot perſuade any of their own people to diſpatch them out of the way by the knife or poyſon: If any one (I ſay) whom they are about to intangle, ſtart or ſtare at ſuch horrid and barbarous doctrines, they are dexterouſly ready to aſſure him that there is a very great miſtake in this whole matter. For (alas) theſe are only the opinions of ſome few <hi>private Doctors</hi> amongſt them, and not the <hi>doctrine of the Church.</hi> No, by no means. God forbid. Though all this while, as that Church hath never yet cenſured ſuch poſitions,
+<pb n="20" facs="tcp:47938:15"/> ſo one (not to mention more) of theſe Coun<g ref="char:EOLhyphen"/>cils which they call general, hath in a very<note place="margin">
+                     <hi>Concil. Lat.</hi> 4.</note> great meaſure aſſerted them; and the Popes, whenever they have had a will and power enough in their hands, have not been ſparing to juſtifie and put them in execution.</p>
+               <p>AS for their art of intangling by ſtriking a terror into the minds of their intended proſe<g ref="char:EOLhyphen"/>lytes on the account of perſecution, telling them (which is a common Topick among them) <hi>Well, well; we ſhall be all of one Religion within theſe two or three years, or within ſuch or ſuch a time;</hi> and ſuch like threatning expreſſions: indeed <hi>ſilly women laden with iniquity,</hi> and children void of underſtanding, if they be intangled here<g ref="char:EOLhyphen"/>with, may be pitied; but for men and women that have been well grounded in the Principles of our Religion to be catcht with ſuch chaff—it is a crime unpardonable.</p>
+               <p>TO conclude this part of my diſcourſe upon the Diſſuaſion or Dehortation. If you find that they would intangle you by telling you (as they ſeldom fail to do) that if you come over to them, undergo their penance (perhaps they will get ſome body or other to do it for you) and die in their Communion; whatever your crimes be, you ſhall be certainly ſaved:
+<pb n="21" facs="tcp:47938:15"/> but that if you live and die, though never ſo full of faith and good works, out of their Com<g ref="char:EOLhyphen"/>munion, you ſtand Excommunicate, and will be as certainly damned: <hi>Fear them not; ſtand faſt and be not intangled.</hi>
+               </p>
+               <p>WHAT! Enter into Communion with, or fear the excommunication of ſuch as ſtand excommunicate themſelves! and <hi>that</hi> by an Apoſtle too! Let no man ſtartle at what I ſay. I'le make my words good. This very<note place="margin">Chap. i. 8.</note> Apoſtle ſays expreſly, <hi>though we or an Angel from heaven preach any other Gospel to you than that which we have preached unto you,</hi> Anathema ſit, <hi>let him be accurſed.</hi> And for fear ſuch bold Innovators ſhould not take his word for it, he repeats it<note place="margin">Verſe 9.</note> again, <hi>as we ſaid before, ſo ſay I now again, if any man preach any other Goſpel to you than that you have received,</hi> Anathema ſit, <hi>let him be accurſed.</hi>
+               </p>
+               <p>NOW that they have juſtly incurred this ſentence of excommunication (let them get it off how they can) will eaſily appear if we take but a view of the <hi>yoke</hi> which upon our being intangled, they have prepared for our necks.</p>
+               <div n="1" type="argument">
+                  <p n="1">1. AND that is the firſt argument <hi>ab incom<g ref="char:EOLhyphen"/>modo,</hi> which our Apoſtle urgeth to enforce this Diſſuaſion or Dehortation—there is a yoke in the caſe.</p>
+                  <pb n="22" facs="tcp:47938:16"/>
+                  <p> BE not therefore intangled with the yoke of bondage.</p>
+                  <p>
+                     <milestone type="tcpmilestone" unit="unspecified" n="I"/> I will begin with the firſt part of their yoke (which we occaſionally mentioned before) their denying to the people the Cup in the Holy Sacrament. <hi>A yoke which neither we nor our fathers were able to bear.</hi>
+                  </p>
+                  <p>OUR bleſſed Saviour inſtituted eating and drinking the Symboles of his Body and Bloud apart; the Apoſtles and the Church after them conſtantly practiſed it for above a thouſand years together: and now we muſt be ſacrilegi<g ref="char:EOLhyphen"/>ouſly rob'd of it for reaſons of their own inven<g ref="char:EOLhyphen"/>tion, (for Chriſts Vicar muſt be wiſer than his Maſter) and becauſe they will pleaſe to have it ſo.</p>
+                  <p>THEY tell us that the Church hath an un<g ref="char:EOLhyphen"/>limited power to do ſuch things, and to make ſuch alterations. Believe it that liſt: I have ſomething elſe to do.</p>
+                  <p>BUT this is a very ſmall matter with them.</p>
+                  <p>HEAR what <hi>Bellarmine</hi> ſays of the un<g ref="char:EOLhyphen"/>bounded power of the Pope alone in all caſes. <q rend="margQuotes">If the Pope ſhould ſo far err as to call vice<note place="margin">
+                           <hi>De Rom. Pont. lib.</hi> 4. <hi>c.</hi> 5.</note> vertue and vertue vice, and command them to be accordingly practiſed and forborn, the Church were bound to ſubmit and conform her ſelf, unleſs ſhe would ſin againſt Conſci<g ref="char:EOLhyphen"/>ence.</q>
+                  </p>
+                  <pb n="23" facs="tcp:47938:16"/>
+                  <p> WELL ſaid Cardinal!</p>
+                  <p>THE good man had forgot that God him<g ref="char:EOLhyphen"/>ſelf had accurſed thoſe that <hi>call evil good and good evil.</hi> But (to let that paſs) how comes ſo great a man to ſuppoſe what he had taken ſo great pains to prove impoſſible, <hi>i. e.</hi> that his Holineſs can err? and how comes he to pull down what he had before (as much as in him lay) built up, <hi>i. e.</hi> the Popes infallibility? For if we be not aſſured of the real and unalterable difference betwixt vertue and vice, we have no certainty: and where there is no certainty, it is impoſſible there can be any infallibility. Which doctrine of infallibility (for I muſt haſten) is the very beam of the <hi>yoke</hi> to be laid upon us in lieu of the liberty wherewith Chriſt hath made us free.</p>
+                  <p>WE are by Gods providence yet free from the yoke (we celebrate the Supper of the Lord with eating and <hi>drinking</hi> according to his own moſt holy Inſtitution) Be not therefore intang<g ref="char:EOLhyphen"/>led with this yoke of bondage.</p>
+                  <p>
+                     <milestone type="tcpmilestone" unit="unspecified" n="II,"/> TAKE for a ſecond <hi>part</hi> of their yoke the doctrine of Tranſubſtantiation: than which I am ſure <hi>Jacob Behmen</hi> has not any thing in all his enthuſiaſtick writings more monſtrouſly myſterious and unintelligible. As if no man
+<pb n="24" facs="tcp:47938:17"/> could poſſibly become a good Chriſtian, unleſs he threw away his memory and underſtanding at the ſame time.</p>
+                  <p>TRANSUBSTANTIATION! a name and thing ſo unknown to all antiquity and ſo utterly impoſſible in it ſelf, that I muſt ſhake hands with my nature before I can bring my neck to the yoke.</p>
+                  <p>INDEED if the Aſſertors of that doctrine can once mould me into ſuch a temper as that (with the Comoedian) I could run in their hand, and in one and the ſame breath affirm with them that a Cloud looks <hi>like a Camel, like a Weazel and like a Whale—</hi>much may be done. Till then they muſt give me leave (and if they will not give it me, I ſhall make bold to take it) to belive my ſenſes both inward and outward, which I humbly conceive and am verily per<g ref="char:EOLhyphen"/>ſuaded God and Nature did not beſtow upon me with a deſign to deceive and cheat me.</p>
+                  <p>IF they ask (as they uſually do) why do we then believe the doctrine of the Trinity, which on this occaſion they will have to be as much againſt human reaſon? I anſwer by denying what they take for granted, <hi>i. e.</hi> That the do<g ref="char:EOLhyphen"/>ctrine of the Trinity and that of Tranſubſtan<g ref="char:EOLhyphen"/>tiation are alike againſt reaſon. That I and
+<pb n="25" facs="tcp:47938:17"/> two more can be one, or that any created be<g ref="char:EOLhyphen"/>ing can be in more than one place at the ſame is indeed againſt reaſon; becauſe we have di<g ref="char:EOLhyphen"/>ſtinct beings and are diſtinctly circumſcribed by our own proper limits and places: but that God who is infinite in power and fills all places with his unbounded preſence, may be whatever he pleaſeth to reveal and declare himſelf to be, as touching his Divine Nature, is (if above, yet) not at all againſt my rea<g ref="char:EOLhyphen"/>ſon.</p>
+                  <p>BUT (to end this Paragraph) to what pur<g ref="char:EOLhyphen"/>poſe ſhould I be obliged in this matter to call white black, and black white? <hi>Cui bono?</hi> Can<g ref="char:EOLhyphen"/>not the ſame God who at the Preaching of the Goſpel of his Son by his Apoſtles conferred the Holy Ghoſt on thoſe that never heard of him before; and cannot that Son of God, who In<g ref="char:EOLhyphen"/>ſtituted Holy Baptiſm to the myſtical waſhing away of ſin, confer Grace and Spiritual nouriſh<g ref="char:EOLhyphen"/>ment to my ſoul upon my humble and grateful commemoration of his meritorious Death and Paſſion, in eating and drinking the Conſecrated Elements, without the Prieſts turning by I know not how many unconceivable Miracles, not only the Bread and Wine, but even the Bread alone into his real Body and Blood?</p>
+                  <pb n="26" facs="tcp:47938:18"/>
+                  <p> IT cannot be expected that I ſhould, with<g ref="char:EOLhyphen"/>in the time allotted me, ſay all that can be ſaid (if I could do it) upon theſe and the following ſubjects; and therefore I refer you for your further ſatisfaction and confirmation, to the labours of thoſe many Pious and Learned men of our Church, who have in this and all other points controverted betwixt us, ſo baffled our Adverſaries of <hi>Rome,</hi> that though they will have the laſt word (there is no help for that) they have nothing left them which with modeſty they can ſay for themſelves. As for us, we are yet by the Grace of God <hi>free</hi> from this ground<g ref="char:EOLhyphen"/>leſs, uſeleſs and ſenſeleſs yoke of Tranſubſtan<g ref="char:EOLhyphen"/>tiation: Be not therefore intangled with <hi>this</hi> yoke of bondage.</p>
+                  <p>
+                     <milestone type="tcpmilestone" unit="unspecified" n="III"/> WHAT ſhall I ſay of the Doctrin of the Popes Supremacy over the whole World? his pretended power to confer and take away Crowns and Kingdoms? and in the ſtead of God himſelf (for King <hi>David</hi> makes it his pe<g ref="char:EOLhyphen"/>culiar Prerogative, and ſo doth his Son too) <hi>to pull down one and ſet up another?</hi> They tell us a great many fine ſtories of St. <hi>Peters</hi> Keys, and St. <hi>Pauls</hi> Sword: but alaſs! they are but ſto<g ref="char:EOLhyphen"/>ries, ambitious imaginations of their own brains. Now before I give mine own opinion
+<pb n="27" facs="tcp:47938:18"/> in the caſe ſo far as we are concerned, I crave leave to tell you what one of their late Pam<g ref="char:EOLhyphen"/>phleteers hath affirmed in it, <hi>viz.</hi> 
+                     <q rend="margQuotes">That <hi>Oliver Cromwel</hi> had as much right to exclude the Royal Family and ſet up for himſelf, as King <hi>Henry</hi> the Eighth had to throw off his Obedi<g ref="char:EOLhyphen"/>ence to the Pope.</q> Spoken like a good Sub<g ref="char:EOLhyphen"/>ject, and a well read man! Is there no diffe<g ref="char:EOLhyphen"/>rence between an home-born Prince and a fo<g ref="char:EOLhyphen"/>rein Uſurper? And for Gods ſake, what power or profit had ever the Popes of <hi>Rome</hi> in this Kingdom, but what was either granted them by the indulgence and bounty of devout and unwary Princes, or elſe what they extorted by watching their opportunities and fiſhing in troubled waters? the laſt of which was no Title at all, and the firſt being abuſed was juſtly forfeited.</p>
+                  <p>THE firſt conſiderable footing that his Ho<g ref="char:EOLhyphen"/>lineſs got here was by <hi>Auſtin</hi> the Monk about the year 600. and then the Foundation was laid in blood, in the blood of twelve hundred Monks. A truer ſtory I am ſure than that of their 11000 Virgin-Martyrs. And, as the Na<g ref="char:EOLhyphen"/>turaliſts ſay, <hi>ex quibus componimur, ex iisdem nu<g ref="char:EOLhyphen"/>trimur,</hi> ſo I may ſay of them. If you prove good children, <hi>believe as the Church believes</hi> and
+<pb n="28" facs="tcp:47938:19"/> do what ſhe bids you right or wrong; pay your firſt-fruits, tenths, Peter-pence and other perquiſites which the Apoſtolic Sea claims (all which however I think better in the King of <hi>England</hi>'s Exchequer than in the <hi>Roman</hi> Aerary) <hi>then</hi> his Holineſs ſmiles at your eaſineſs, and his word is<hi>—Si populus vult decipi, decipiatur,</hi> &amp;c. but if you do not, look to your ſelves; the note is changed into that of <hi>Nebuchadnezzar</hi> (his Predeceſſor in old <hi>Babylon)—If you wor<g ref="char:EOLhyphen"/>ſhip not, you ſhall be caſt into the midſt of the burning fiery furnace.</hi> But ſuppoſe we ſhould (not grant but) give them what they contend for, <hi>i. e.</hi> that they did firſt Preach the Goſpel to our Fore-fathers in this Iſland; what will they get by it? Put the Caſe I ſhould have the happi<g ref="char:EOLhyphen"/>neſs to convert a rich Jew, or an <hi>Indian</hi> to the Chriſtian Faith; am I thereby preſently in<g ref="char:EOLhyphen"/>veſted with a power over his Eſtate, Liberty and Life?</p>
+                  <p>A bleſſed Reformation, this! Chriſt ſent <hi>his</hi> diſciples forth <hi>as ſheep among wolves;</hi> but the Church or Court of <hi>Rome</hi> (for I proteſt I can make no diſtinction between them) ſends forth her diſciples as wolves among ſheep, to kill, to tear and to deſtroy.</p>
+                  <pb n="29" facs="tcp:47938:19"/>
+                  <p> I do not find that Chriſts diſciples received any Commiſſion to cut the throats of all ſuch as would not ſubmit to the Goſpel: but I am ſure that both they and their followers choſe ra<g ref="char:EOLhyphen"/>ther to ſuffer death than to cauſe any diſtur<g ref="char:EOLhyphen"/>bance in the State, otherwiſe than by Preach<g ref="char:EOLhyphen"/>ing that Goſpel according to their Commiſſion. Our Saviour wrought a Miracle to teſtifie his obedience to the Civil power: and had not that bleſſed Son of God himſelf given his fol<g ref="char:EOLhyphen"/>lowers an example by patiently ſubmitting to the Sentence of Death under unjuſt Judges, becauſe they were in Authority, we had at this day (for ought I know) wanted a Saviour our ſelves.</p>
+                  <p>THE Jeſuites tell us indeed that the Primi<g ref="char:EOLhyphen"/>tive Church and the Firſt Biſhops of <hi>Rome</hi> did not execute this power becauſe they were then <hi>in Incunabulis,</hi> in the Cradle and under Perſe<g ref="char:EOLhyphen"/>cution. But I hope the Son of God did not want that power<hi>—If my kingdom were of this world, then would my ſervants fight for me,</hi> ſaith he—and to <hi>Peter</hi> himſelf<hi>—Put up thy ſword into his ſheath, for cannot I pray now to my Fathe<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> and he ſhall give me more than twelve legions of An<g ref="char:EOLhyphen"/>gels?</hi> But I forget my ſelf.</p>
+                  <pb n="30" facs="tcp:47938:20"/>
+                  <p>
+                     <milestone type="tcpmilestone" unit="unspecified" n="IV"/> THE time would fail me to ſpeak of their Divine Service in an <hi>unknown tongue;</hi>
+                  </p>
+                  <p>
+                     <milestone type="tcpmilestone" unit="unspecified" n="V"/> OF their invocations and adorations of Angels and Saints departed;</p>
+                  <p>
+                     <milestone type="tcpmilestone" unit="unspecified" n="VI"/> OF their worſhipping of Images, and <milestone type="tcpmilestone" unit="unspecified" n="VII"/> (in order thereunto) utterly aboliſhing the ſecond Commandment;</p>
+                  <p>
+                     <milestone type="tcpmilestone" unit="unspecified" n="VIII"/> OF works of Supererogation, all expreſly contrary to the written word of God, (which therefore they deſtroy or make void through <milestone type="tcpmilestone" unit="unspecified" n="IX"/> their Traditions;)</p>
+                  <p>
+                     <milestone type="tcpmilestone" unit="unspecified" n="X"/> OF their Purgatory;</p>
+                  <p>
+                     <milestone type="tcpmilestone" unit="unspecified" n="XI"/> OF Indulgences;</p>
+                  <p>
+                     <milestone type="tcpmilestone" unit="unspecified" n="XII"/> OF Pilgrimages.</p>
+                  <p>I will name no more, I am weary on't: they all being the unlawful Engins for the en<g ref="char:EOLhyphen"/>largement of their dominion, and ſupport of their grandeur by <hi>filthy lucre.</hi>
+                  </p>
+                  <p>THESE and many, very many more make up that yoke which is to be given us in exchange for that bleſſed <hi>liberty wherewith Chriſt hath made us free,</hi> and which by Gods ſuper<g ref="char:EOLhyphen"/>abundant and no way deſerved mercy we yet enjoy.</p>
+                  <p>BE <hi>not therefore entangled with this yoke of bondage.</hi>
+                  </p>
+               </div>
+               <div n="2" type="argument">
+                  <p n="2">
+                     <pb n="31" facs="tcp:47938:20"/> 2. ESPECIALLY conſidering the <hi>abſur<g ref="char:EOLhyphen"/>dity</hi> of being ſo intangled; which is the Apoſtles ſecond argument to fortifie this Diſſuaſion or Dehortation<hi>—be not intangled again.</hi>
+                  </p>
+                  <p>SED <hi>quid valet iſtud Rurſus?</hi> how comes the Apoſtle to diſſuade the <hi>Galatians</hi> from being intangled <hi>again</hi> with the yoke of bondage, who never had the law of <hi>Moſes</hi> delivered to them, and ſo had never before been circumciſed? whatever others anſwer, I think there will be no great difficulty in the caſe, if inſtead of <hi>the yoke</hi> you read <hi>a yoke,</hi> which the original will bear as well as the other: and then the ſenſe is this—you have by the preaching of Chriſt crucified among you been freed from <hi>one</hi> yoke, that of Idol-worſhip; no not run your necks into <hi>another</hi> of Circumciſion.</p>
+                  <p>BE not intangled <hi>again.</hi>
+                  </p>
+                  <p>BUT then even here again the <hi>Galatians</hi> have the advantage of us: for they were ſubmitting their necks to a yoke ſometime impoſed by God himſelf as abſolutely neceſſary; but we by taking on us the <hi>Roman Yoke again</hi> ſubmit our ſelves to a yoke of bondage made up of mere human inventions, contrary to Gods word, and deſtructive both of true Religion and civil Societies.</p>
+                  <pb n="32" facs="tcp:47938:21"/>
+                  <p> BE <hi>not therefore intangled again.</hi>
+                  </p>
+                  <p>WOULD the Doctors go to School again? a School, where they ſhall be taught better manners than to rely only upon the all-ſuffi<g ref="char:EOLhyphen"/>cient merits of their Saviour: than to be ſub<g ref="char:EOLhyphen"/>ject to any other power than that of <hi>our Lord God the Pope.</hi> And in order thereunto they muſt learn a new leſſon, to live a ſingle life (whe<g ref="char:EOLhyphen"/>ther they can do it honeſtly or no, it makes no matter) for fear leſt having wives and children they ſhould give the State ſecurity of their obedience to their undoubted and lawful So<g ref="char:EOLhyphen"/>vereign: Nay (which is more) to be the Popes executioners, and whenever heis angry and ſhall pleaſe to put their native Country under an interdict, to proclaim his Bull for Excommu<g ref="char:EOLhyphen"/>nicating their Prince and abſolving <hi>themſelves</hi> and fellow Subjects from their allegeance to him, and to ſurceaſe all religious Offices in the Church. Would the Doctors (I ſay) go to School <hi>again?</hi>
+                  </p>
+                  <p>WOULD a Servant manumitted and ha<g ref="char:EOLhyphen"/>ving a good ſtock wherewith to ſet up for himſelf be bound apprentice <hi>again?</hi> Would a General of an Army turn private Souldier <hi>again?</hi>
+                  </p>
+                  <pb n="33" facs="tcp:47938:21"/>
+                  <p> WOULD a man become a child <hi>again?</hi>
+                  </p>
+                  <p>A Patient lately recovered from an ill ha<g ref="char:EOLhyphen"/>bit of body or ſome deſperate diſeaſe, re<g ref="char:EOLhyphen"/>lapſe and fall ſick <hi>again?</hi>
+                  </p>
+                  <p>WOULD a Prince, who holds his Im<g ref="char:EOLhyphen"/>perial Crown only from God, lay it down at the feet of an inſolent pretender to a power of kicking it off from his head, and giving it unto whomſoever he will?</p>
+                  <p>AND if theſe things be abſurd; it muſt needs be ſo in us, if we return to the <hi>Roman</hi> yoke <hi>again.</hi>
+                  </p>
+                  <p>BE not therefore intangled <hi>again.</hi>
+                  </p>
+                  <p>FOR Gods ſake, whatever the genius of the <hi>Galatians</hi> was, let not us in ſo weighty a matter as this verifie our own Country-Pro<g ref="char:EOLhyphen"/>verb which ſays, that <hi>an Engliſh-man never knows when a thing is well.</hi>
+                  </p>
+                  <p>STAND <hi>faſt therefore in the liberty where<g ref="char:EOLhyphen"/>with Chriſt hath made us free, and be not intangled again with the yoke of bondage.</hi>
+                  </p>
+                  <p>I have now finiſhed my meditations upon the Text: in the delivery whereof I have diſ<g ref="char:EOLhyphen"/>charged my bounden duty without any ſiniſter ends; without either hope of good or fear of evil in this life; but (I confeſs) not without
+<pb n="34" facs="tcp:47938:22"/> 
+                     <hi>having an eye to the recompence of reward</hi> in that which is to come.</p>
+                  <p>I hope no man will be diſpleaſed with me for what I have ſaid. But if any ſuch there be, <hi>I am not careful to anſwer them in this matter.</hi> I ſhall only make uſe of the Apoſtles honeſt Apology<hi>—Am I therefore become your enemy, be<g ref="char:EOLhyphen"/>cauſe I tell you the truth?</hi>
+                     <note place="margin">Chap. iv. 16.</note>
+                  </p>
+                  <p>TO conclude; give me leave once more to purſue the Apoſtles method, who ſhuts up this Epiſtle with earneſt perſuaſions that his <hi>Galatians</hi> would <hi>trouble him no more</hi> about theſe<note place="margin">Chap. vi. 17.</note> matters; but forſake the luſts of the fleſh and live a vertuous and a pious life: the only way (if we could at laſt be perſuaded to believe it) to beget unity among our ſelves, to avert Gods juſt and dreadful judgments and to make him favourable and gracious to our <hi>Sion.</hi>
+                  </p>
+                  <p>I ſay therefore (in the words of the Prophet <hi>Daniel)</hi> as well to my ſelf as to all that hear me<note place="margin">Chap. iv. 17.</note> this day<hi>—Let my Counſel now be acceptable to you; let us break off our ſins by Righteouſneſs and our iniquities by ſhewing mercy to the poor, if it may be a lengthning of our tranquillity.</hi>
+                  </p>
+                  <pb n="35" facs="tcp:47938:22"/>
+                  <p> And to that end</p>
+                  <p>WE <hi>humbly beſeech thee, O Father, mercifully to look upon our infirmities, and for the Glory of thy Name turn from us all thoſe evils that we moſt Righteouſly have deſerved: and grant that in all our troubles we may put our whole truſt and con<g ref="char:EOLhyphen"/>fidence in thy mercy, and evermore ſerve thee in holineſs and pureneſs of living to thy Honor and Glory through our only Mediator and Advocate Jeſus Chriſt our Lord.</hi>
+                  </p>
+                  <p>AS <hi>many as walk according to this rule, peace be on them and mercy, and upon the Iſrael of God;</hi> to whom be aſcribed and given all Power and Praiſe now and evermore.</p>
+               </div>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
